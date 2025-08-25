@@ -79,18 +79,3 @@ To make trends more meaningful, we derived the following new columns:
   * Proxy for severity of the outbreak and healthcare response.
   * Decreasing CFR often reflects better testing, treatments, or vaccination.
 
----
-
-## 🌐 Deployment
-
-The app can be deployed to **Streamlit Community Cloud** or platforms like **Render/Heroku**.
-Once deployed, share the live link in your **LinkedIn, GitHub, or resume**.
-
----
-
-## ✨ Future Improvements
-
-* Add vaccination data from *Our World in Data*
-* Enable continent/region filters
-* Include forecasting (Prophet/ARIMA) for case projections
-* Export a PDF summary of the latest trends
