@@ -81,32 +81,6 @@ To make trends more meaningful, we derived the following new columns:
 
 ---
 
-## ▶️ Running Locally
-
-Clone the repo and install dependencies:
-
-```bash
-git clone https://github.com/yourusername/covid19-dashboard.git
-cd covid19-dashboard
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-Download & preprocess the latest data:
-
-```bash
-python data_fetch.py
-```
-
-Run the dashboard:
-
-```bash
-streamlit run app.py
-```
-
----
-
 ## 🌐 Deployment
 
 The app can be deployed to **Streamlit Community Cloud** or platforms like **Render/Heroku**.
